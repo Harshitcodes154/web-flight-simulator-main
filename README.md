@@ -76,28 +76,7 @@ The project utilizes a **Hybrid Rendering Architecture**:
 - **Three.js** manages the local coordinate system for the aircraft model, particle effects (jet flames, explosions), and lighting.
 - **Vite** provides an ultra-fast HMR development environment and optimized production builds.
 
-## 📦 Installation & Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/dimartarmizi/web-flight-simulator.git
-   cd web-flight-simulator
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Run development server:**
-   ```bash
-   npm run dev
-   ```
-
-4. **Build for production:**
-   ```bash
-   npm run build
-   ```
 
 The simulator uses OpenStreetMap imagery by default, so the map works without a Cesium ion account. To enable Cesium World Terrain, create a `.env.local` file in the project root and add your own Cesium ion token:
 
@@ -114,10 +93,10 @@ This project is licensed under a **Dual-Licensing** model:
 - **Non-Commercial:** Free to use for personal, educational, and non-profit projects.
 - **Commercial:** Requires a separate commercial license for any for-profit use.
 
-Please refer to the [LICENSE](LICENSE) file for full legal terms or contact [dimartarmizi@email.com](mailto:dimartarmizi@email.com) for inquiries.
+Please refer to the [LICENSE](LICENSE) file for full legal terms or contact [harshitkumar7212@gmail.com](mailto:harshhitkumr7212@gmail.com) for inquiries.
 
 ## 🏷️ Credits
 
-- **Developer**: Dimar Tarmizi
+- **Developer**: Harshit Kumar
 - **3D Model**: ["Low poly F-15"](https://sketchfab.com/3d-models/low-poly-f-15-0c1cfa22d7094556914fcdfba75bef5d) by [SIpriv](https://sketchfab.com/sipriv).
 - **Engine**: [Three.js](https://threejs.org/) & [CesiumJS](https://cesium.com/).
