@@ -5,7 +5,7 @@ export class DialogueSystem {
 		this.container = document.getElementById('dialogue-container');
 		this.textElem = document.getElementById('dialogue-text');
 		this.dialogues = [
-			"Welcome, Pilot. I am Commander Dimar Tarmizi. I will be your flight instructor today.",
+			"Welcome, Pilot. I am Commander Harshit. I will be your flight instructor today.",
 			"You are currently piloting the F-15 Eaglehawk, an advanced air superiority fighter.",
 			"Check your HUD. The left box shows your SPEED in knots, and the right box shows your ALTITUDE.",
 			"The compass at the top shows your heading, and the crosshair in the center helps you level your flight.",
